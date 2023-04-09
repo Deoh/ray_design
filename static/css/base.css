@@ -1,0 +1,10 @@
+.homepage-container {
+    background: url('/media/homepage.jpg') no-repeat center center fixed;
+    background-size: cover;
+    /* height: calc(80vh - 164px); */
+    height: 90vh;
+    color: #555;
+    font-family: 'Lato';
+    background-color: grey;
+    font-family: 'Lato';
+}
