@@ -49,6 +49,12 @@
 .offcanvas.offcanvas-top {
     top: 56px;
     border-bottom: none;
-    transform: translateY(-112px);
+    /* transform: translateY(-112px); */
 }
 /* ---------------------------------------------------------------------- */
+
+a.nav-link {
+    font-weight: 700;
+    text-transform: capitalize;
+    font-size: larger;
+}
