@@ -1,3 +1,7 @@
+:root {
+    --black: #000;
+}
+
 .homepage-container {
     background: url('/media/homepage.jpg') no-repeat center center fixed;
     background-size: cover;
@@ -8,3 +12,43 @@
     background-color: grey;
     font-family: 'Lato';
 }
+
+/* Navbar --------------------------------------------------------------- */
+
+.navbar-brand {
+    margin: 0 15px;
+    color: var(--black);
+}
+
+.navbar-brand strong,
+#offcanvasNavbarLabel strong {
+    text-transform: uppercase;
+}
+
+.navbar-toggler {
+    border: none;
+    color: var(--black);
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.dropdown-menu {
+    --bs-dropdown-min-width: 7rem;
+}
+
+.offcanvas.offcanvas-start {
+    width: 320px;
+}
+
+#offcanvasSearch {
+    height: fit-content;
+}
+
+.offcanvas.offcanvas-top {
+    top: 56px;
+    border-bottom: none;
+    transform: translateY(-112px);
+}
+/* ---------------------------------------------------------------------- */

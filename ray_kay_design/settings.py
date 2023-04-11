@@ -45,6 +45,9 @@ INSTALLED_APPS = [
     'allauth.account',
     'allauth.socialaccount',
 
+    # Font Awesome icon pack
+    'fontawesomefree',
+
     'home'
 ]
 
