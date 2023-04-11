@@ -1,7 +1,7 @@
 :root {
     --black: #000;
 }
-
+/* header --------------------------------------------------------------- */
 .homepage-container {
     background: url('/media/homepage.jpg') no-repeat center center fixed;
     background-size: cover;
@@ -12,7 +12,7 @@
     background-color: grey;
     font-family: 'Lato';
 }
-
+/* ---------------------------------------------------------------------- */
 /* Navbar --------------------------------------------------------------- */
 
 .navbar-brand {
@@ -57,4 +57,17 @@ a.nav-link {
     font-weight: 700;
     text-transform: capitalize;
     font-size: larger;
+    color: var(--black);
 }
+/* ---------------------------------------------------------------------- */
+/* main ----------------------------------------------------------------- */
+main {
+    padding-top: 61px;
+}
+
+@media (min-width: 992px) {
+    main {
+        padding-top: 138px;
+    }
+}
+/* ---------------------------------------------------------------------- */

@@ -48,7 +48,8 @@ INSTALLED_APPS = [
     # Font Awesome icon pack
     'fontawesomefree',
 
-    'home'
+    'home',
+    'products'
 ]
 
 MIDDLEWARE = [
