@@ -70,7 +70,7 @@ TEMPLATES = [
         'DIRS': [
             # Directories where the engine should look for template source files (eg. base.html), in search order.
             os.path.join(BASE_DIR, 'templates'), # BASE_DIR / 'templates'
-            os.path.join(BASE_DIR, 'templates', 'allauth'), # BASE_DIR / 'templates/allauth'
+            os.path.join(BASE_DIR, 'templates', 'allauth','account'), # BASE_DIR / 'templates/allauth/account'
         ],
         'APP_DIRS': True,
         'OPTIONS': {
